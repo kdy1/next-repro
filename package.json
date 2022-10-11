@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next -p 37000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "12.2.6-canary.1",
+    "nextra": "=2.0.0-alpha.56",
+    "nextra-theme-blog": "=2.0.0-alpha.55",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rss": "^1.2.2"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "semi": false
+  }
+}
